@@ -1,0 +1,36 @@
+.gif {
+  width: 100%;
+  height: 270px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  .gif-center {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    flex-flow: row nowrap;
+    .gif-center-image {
+      width: 50%;
+      height: 100%;
+      border-radius: 16px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+      }
+    }
+    .gif-2-center-image {
+      width: 50%;
+      height: 100%;
+      border-radius: 16px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+      }
+    }
+  }
+}

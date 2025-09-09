@@ -1,0 +1,26 @@
+.market-fix{
+    width: 130px;
+    height: 50px;
+    background-color: #449852;
+    border-radius: 25px;
+    position: fixed;
+    left: 15px;
+    bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    z-index: 2;
+    h6{
+        width: fit-content;
+        font-family: var(--font-family);
+        color: #FFFFFF;
+        font-size: 17px;
+        line-height: 50px;
+        font-weight: normal;
+    }
+    img{
+        width: 28px;
+        height: 28px;
+    }
+}

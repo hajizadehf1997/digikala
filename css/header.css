@@ -1,0 +1,189 @@
+.header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0 1px 2px #d0d0d0;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 2;
+  .header-image {
+    width: 100%;
+    height: 60px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .header-search {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    .header-search-center {
+      width: 98%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      .header-search-center-logo {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 195px;
+          height: 30px;
+        }
+      }
+      .header-search-center-search {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        img {
+          position: relative;
+          left: -45px;
+        }
+        input[type="text"] {
+          width: 600px;
+          height: 40px;
+          background-color: #f0f0f1;
+          border: none;
+          outline: none;
+          box-sizing: border-box;
+          border-radius: 4px;
+          padding-right: 60px;
+          &::placeholder {
+            font-family: var(--font-family);
+          }
+          &:focus::placeholder {
+            opacity: 0;
+            transition: 300ms;
+          }
+        }
+      }
+      .header-search-center-login {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        box-sizing: border-box;
+        .header-search-center-login-notif {
+          padding-left: 5px;
+          margin-right: 50px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .header-search-center-login-login {
+          width: 135px;
+          height: 40px;
+          border: 1px solid lightgray;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 5px;
+          font-family: var(--font-family);
+          font-size: 13px;
+          text-decoration: none;
+          color: #0c0c0c;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+          span {
+            display: inline-block;
+            width: 2px;
+            height: 15px;
+            background-color: #0c0c0c;
+          }
+        }
+        .header-search-center-login-basket {
+          padding-right: 5px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+  .header-menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    .header-menu-center {
+      width: 98%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header-menu-center-menu {
+        width: 85%;
+        height: 100%;
+        nav {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          column-gap: 20px;
+          align-items: center;
+          div {
+            width: fit-content;
+            height: 100%;
+            a {
+              display: flex;
+              width: fit-content;
+              height: 100%;
+              align-items: center;
+              column-gap: 5px;
+              font-family: var(--font-family);
+              font-size: 13px;
+              text-decoration: none;
+              color: #62666d;
+              img {
+                width: 18px;
+                height: 18px;
+              }
+            }
+            &:hover {
+              border-bottom: 2px solid #ef394e;
+            }
+          }
+          span {
+            height: 15px;
+          }
+        }
+      }
+      .header-menu-center-loc {
+        width: 12%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: #fff6f0;
+        border-radius: 20px;
+        column-gap: 10px;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+        p {
+          color: #f57f16;
+          font-family: var(--font-family);
+          font-size: 13px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

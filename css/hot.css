@@ -1,0 +1,107 @@
+.hot {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .hot-center {
+      width: 87%;
+      height: 100%;
+      border: 1px solid #e0e0e2;
+      border-radius: 16px;
+      padding-bottom: 25px;
+      padding-top: 15px;
+      .hot-center-head {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        h3 {
+          width: 100%;
+          height: 100%;
+          color: #000000;
+          font-family: var(--font-family);
+          font-size: 22px;
+          text-align: center;
+          font-weight: normal;
+          line-height: 50px;
+          padding-bottom: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+      .hot-center-swiper {
+        width: 100%;
+        height: 300px;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          .swiper-slide-hot {
+            width: 100%;
+            height: 100%;
+            .swiper-slide-hot-item {
+              width: 100%;
+              height: 100px;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              column-gap: 20px;
+              img {
+                width: 86px;
+                height: 86px;
+              }
+              h1 {
+                width: 14px;
+                font-family: var(--font-family);
+                font-size: 30px;
+                color: #59bcd0;
+                line-height: 86px;
+              }
+              p {
+                width: fit-content;
+                font-family: var(--font-family);
+                font-size: 14px;
+                color: #3f4061;
+                text-align: right;
+                line-height: 25px;
+                display: -webkit-box;
+                display: box;
+                -webkit-box-orient: vertical;
+                box-orient: vertical;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                overflow: hidden;
+              }
+            }
+            .hot-line {
+              width: 200px;
+              margin-right: 100px;
+            }
+          }
+        }
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  

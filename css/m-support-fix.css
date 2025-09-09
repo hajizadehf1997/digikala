@@ -1,0 +1,18 @@
+.m-support-fix {
+    width: 50px;
+    height: 50px;
+    background-color: #449852;
+    border-radius: 50%;
+    position: fixed;
+    left: 50px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  
